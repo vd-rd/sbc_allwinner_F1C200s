@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP16501
+D integrated PMIC compatible with Microchip's EMPUs
+$ENDCMP
+#
+#End Doc Library
