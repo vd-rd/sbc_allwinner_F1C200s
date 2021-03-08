@@ -304,4 +304,116 @@ Wire Wire Line
 	7150 3200 6900 3200
 Text Label 6500 3000 0    50   ~ 0
 +3V3
+Wire Wire Line
+	2600 1500 3000 1500
+Wire Wire Line
+	2100 1600 1750 1600
+Wire Wire Line
+	2600 1600 3000 1600
+Wire Wire Line
+	2100 1700 1750 1700
+Wire Wire Line
+	2600 1700 3000 1700
+Wire Wire Line
+	2100 1800 1750 1800
+Wire Wire Line
+	2100 2000 1750 2000
+Wire Wire Line
+	2600 2000 3000 2000
+Wire Wire Line
+	2100 2100 1750 2100
+Wire Wire Line
+	2600 2100 3000 2100
+Wire Wire Line
+	2100 2200 1750 2200
+Wire Wire Line
+	2600 2200 3000 2200
+Wire Wire Line
+	2100 2300 1750 2300
+Wire Wire Line
+	2600 2300 3000 2300
+Wire Wire Line
+	2100 2400 1750 2400
+Wire Wire Line
+	2600 2400 3000 2400
+Wire Wire Line
+	2100 2500 1750 2500
+Wire Wire Line
+	2600 2500 3000 2500
+Wire Wire Line
+	2100 2600 1750 2600
+Wire Wire Line
+	2600 2600 3000 2600
+Wire Wire Line
+	2100 2700 1750 2700
+Wire Wire Line
+	2600 2700 3000 2700
+Wire Wire Line
+	2100 2800 1750 2800
+Wire Wire Line
+	2600 2800 3000 2800
+Text GLabel 3000 1500 2    50   Input ~ 0
+ACIN
+Text GLabel 1750 1600 0    50   Output ~ 0
++3V3
+Text GLabel 3000 1600 2    50   Input ~ 0
+VBAT
+Text GLabel 1750 1700 0    50   Input ~ 0
+BAT_GND
+Text GLabel 3000 1700 2    50   Input ~ 0
+BAT_NTC
+Text GLabel 1750 1800 0    50   Input ~ 0
+nRESET
+Text GLabel 1750 2000 0    50   Input ~ 0
+UART0-TX
+Text GLabel 3000 2000 2    50   Input ~ 0
+UART0-RX
+Text Label 10100 4100 0    50   ~ 0
++3V3
+Text GLabel 1750 2700 0    50   Input ~ 0
+SPI0-CLK
+Text GLabel 1750 2800 0    50   Input ~ 0
+SPI0-MOSI
+Text GLabel 3000 2800 2    50   Input ~ 0
+SPI0-MISO
+Text GLabel 3000 2700 2    50   Input ~ 0
+SPI0-CS
+Text GLabel 1750 2200 0    50   Input ~ 0
+UART1-TX
+Text GLabel 3000 2200 2    50   Input ~ 0
+UART1-RX
+Text GLabel 1750 2300 0    50   Input ~ 0
+I2C1-SCL
+Text GLabel 3000 2300 2    50   Input ~ 0
+I2C1-SDA
+Wire Wire Line
+	2650 4850 3100 4850
+Wire Wire Line
+	2650 4950 3100 4950
+Text GLabel 3100 4850 2    50   BiDi ~ 0
+USB-DM
+Text GLabel 3100 4950 2    50   BiDi ~ 0
+USB-DP
+Text GLabel 8350 3900 0    50   Input ~ 0
+LED-RED
+Text GLabel 8350 4100 0    50   Input ~ 0
+LED-GREEN
+Text GLabel 8350 4300 0    50   Input ~ 0
+LED-BLUE
+Wire Wire Line
+	2250 5250 2350 5250
+Connection ~ 2350 5250
+Wire Wire Line
+	10150 2700 10300 2700
+$Comp
+L power:GND #PWR0131
+U 1 1 606DDFD1
+P 10300 2700
+F 0 "#PWR0131" H 10300 2450 50  0001 C CNN
+F 1 "GND" H 10305 2527 50  0000 C CNN
+F 2 "" H 10300 2700 50  0001 C CNN
+F 3 "" H 10300 2700 50  0001 C CNN
+	1    10300 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

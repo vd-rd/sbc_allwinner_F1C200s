@@ -1,0 +1,15 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# card_microSD_det
+#
+DEF card_microSD_det J 0 40 Y Y 1 F N
+F0 "J" 0 0 50 H V C CNN
+F1 "card_microSD_det" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+#End Library

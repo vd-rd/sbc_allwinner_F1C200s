@@ -880,4 +880,15 @@ Text Label 10050 6000 0    50   ~ 0
 PMIC_IRQ
 Text GLabel 4450 4350 0    50   Input ~ 0
 PMIC_IRQ
+$Comp
+L parts-diodes:AP9211 U1
+U 1 1 606E46B5
+P 2500 1050
+F 0 "U1" H 2325 1075 50  0000 C CNN
+F 1 "AP9211" H 2325 984 50  0000 C CNN
+F 2 "parts-diodes:DFN-6-1EP_2.1X3.1mm_EP1.8X1.8mm" H 2500 1050 50  0001 C CNN
+F 3 "" H 2500 1050 50  0001 C CNN
+	1    2500 1050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

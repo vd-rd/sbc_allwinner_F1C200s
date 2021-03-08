@@ -564,7 +564,7 @@ Text Label 5900 1550 0    50   ~ 0
 hosco
 Text Label 5900 1650 0    50   ~ 0
 hosci
-Text GLabel 5250 4550 0    50   Input ~ 0
+Text GLabel 5900 1850 0    50   Input ~ 0
 nRESET
 $Comp
 L power:GND #PWR0127
@@ -734,4 +734,32 @@ Text GLabel 1300 2850 0    50   Input ~ 0
 UART1-RX
 Text GLabel 1300 2950 0    50   Output ~ 0
 UART1-TX
+Wire Wire Line
+	1800 3750 1300 3750
+Wire Wire Line
+	1800 3850 1300 3850
+Text GLabel 1300 3750 0    50   Output ~ 0
+RSB_SCK
+Text GLabel 1300 3850 0    50   BiDi ~ 0
+RSB_SDA
+Wire Wire Line
+	1800 5700 1300 5700
+Text GLabel 1300 5700 0    50   BiDi ~ 0
+PMIC_IRQ
+Wire Wire Line
+	1800 5800 1300 5800
+Text GLabel 1300 5800 0    50   BiDi ~ 0
+nVBUSEN
+Wire Wire Line
+	4050 5750 3650 5750
+Wire Wire Line
+	4050 5650 3650 5650
+Wire Wire Line
+	4050 5550 3650 5550
+Text GLabel 3650 5550 0    50   BiDi ~ 0
+LED-RED
+Text GLabel 3650 5650 0    50   BiDi ~ 0
+LED-GREEN
+Text GLabel 3650 5750 0    50   BiDi ~ 0
+LED-BLUE
 $EndSCHEMATC
