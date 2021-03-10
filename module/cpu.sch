@@ -690,18 +690,18 @@ Wire Wire Line
 	4150 2350 3950 2350
 Wire Wire Line
 	4150 2450 3950 2450
-Text GLabel 3950 1950 0    50   Input ~ 0
-SDC0-D1
+Text GLabel 3950 1950 0    50   BiDi ~ 0
+SDC0-DAT1
 Text GLabel 3950 2050 0    50   BiDi ~ 0
-SDC0-D0
+SDC0-DAT0
 Text GLabel 3950 2150 0    50   Output ~ 0
 SDC0-CLK
 Text GLabel 3950 2250 0    50   Output ~ 0
 SDC0-CMD
 Text GLabel 3950 2350 0    50   BiDi ~ 0
-SDC0-D3
+SDC0-DAT3
 Text GLabel 3950 2450 0    50   BiDi ~ 0
-SDC0-D2
+SDC0-DAT2
 Wire Wire Line
 	1750 950  1350 950 
 Wire Wire Line
@@ -762,4 +762,16 @@ Text GLabel 3650 5650 0    50   BiDi ~ 0
 LED-GREEN
 Text GLabel 3650 5750 0    50   BiDi ~ 0
 LED-BLUE
+Wire Wire Line
+	1800 5900 1300 5900
+Text GLabel 1300 5900 0    50   Input ~ 0
+PMIC_IRQ
+Wire Wire Line
+	1800 6600 1300 6600
+Wire Wire Line
+	1800 6700 1300 6700
+Text GLabel 1300 6600 0    50   Output ~ 0
+I2C0-SCK
+Text GLabel 1300 6700 0    50   BiDi ~ 0
+I2C0-SDA
 $EndSCHEMATC

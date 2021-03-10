@@ -123,7 +123,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 2500 6900 2500
 Wire Wire Line
-	8450 2700 6500 2700
+	8450 2700 6750 2700
 $Comp
 L power:GND #PWR0118
 U 1 1 604D1309
@@ -253,7 +253,7 @@ Connection ~ 7800 1300
 Wire Wire Line
 	7800 1300 7450 1300
 Wire Wire Line
-	6900 1300 6550 1300
+	6900 1300 6750 1300
 Connection ~ 6900 1300
 Text Label 6550 1300 0    50   ~ 0
 +3V3
@@ -383,9 +383,9 @@ UART1-TX
 Text GLabel 3000 2200 2    50   Input ~ 0
 UART1-RX
 Text GLabel 1750 2300 0    50   Input ~ 0
-I2C1-SCL
+I2C0-SCK
 Text GLabel 3000 2300 2    50   Input ~ 0
-I2C1-SDA
+I2C0-SDA
 Wire Wire Line
 	2650 4850 3100 4850
 Wire Wire Line
@@ -487,4 +487,39 @@ F 3 "" H 1150 6650 50  0001 C CNN
 $EndComp
 Text GLabel 3100 5050 2    50   BiDi ~ 0
 USB-ID
+Text GLabel 6500 1800 0    50   BiDi ~ 0
+SDC0-DAT2
+Text GLabel 6500 1900 0    50   BiDi ~ 0
+SDC0-DAT3
+Text GLabel 6500 2000 0    50   Input ~ 0
+SDC0-CMD
+Text GLabel 6500 2200 0    50   Input ~ 0
+SDC0-CLK
+Text GLabel 6500 2400 0    50   BiDi ~ 0
+SDC0-DAT0
+Text GLabel 6500 2500 0    50   BiDi ~ 0
+SDC0-DAT1
+Text GLabel 6500 2700 0    50   BiDi ~ 0
+SDC0-DET
+$Comp
+L Device:R_Small R10
+U 1 1 60498DE2
+P 6750 1450
+F 0 "R10" V 6700 1600 50  0000 C CNN
+F 1 "47K" V 6700 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6750 1450 50  0001 C CNN
+F 3 "~" H 6750 1450 50  0001 C CNN
+	1    6750 1450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6750 1350 6750 1300
+Connection ~ 6750 1300
+Wire Wire Line
+	6750 1300 6550 1300
+Wire Wire Line
+	6750 1550 6750 2700
+Connection ~ 6750 2700
+Wire Wire Line
+	6750 2700 6500 2700
 $EndSCHEMATC
