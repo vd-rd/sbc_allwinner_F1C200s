@@ -362,7 +362,7 @@ Text GLabel 1750 1700 0    50   Input ~ 0
 BAT_GND
 Text GLabel 3000 1700 2    50   Input ~ 0
 BAT_NTC
-Text GLabel 1750 1800 0    50   Input ~ 0
+Text GLabel 1750 1800 0    50   BiDi ~ 0
 nRESET
 Text GLabel 1750 2000 0    50   Input ~ 0
 UART0-TX
@@ -416,4 +416,75 @@ F 3 "" H 10300 2700 50  0001 C CNN
 	1    10300 2700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2650 4650 3100 4650
+Text GLabel 3100 4650 2    50   BiDi ~ 0
++5V_OTG
+Wire Wire Line
+	2650 5050 3100 5050
+$Comp
+L Device:R_Small R7
+U 1 1 60526D57
+P 1600 5800
+F 0 "R7" V 1550 5950 50  0000 C CNN
+F 1 "47k" V 1550 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1600 5800 50  0001 C CNN
+F 3 "~" H 1600 5800 50  0001 C CNN
+	1    1600 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1600 5700 1150 5700
+Wire Wire Line
+	1600 5900 1150 5900
+Text Label 1150 5900 0    50   ~ 0
+USB-ID
+Text Label 1150 5700 0    50   ~ 0
++3V3
+$Comp
+L Device:R_Small R9
+U 1 1 6052DB87
+P 1600 6550
+F 0 "R9" V 1700 6550 50  0000 C CNN
+F 1 "47k" V 1500 6550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1600 6550 50  0001 C CNN
+F 3 "~" H 1600 6550 50  0001 C CNN
+	1    1600 6550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 6052E022
+P 1600 6350
+F 0 "R8" V 1700 6350 50  0000 C CNN
+F 1 "47k" V 1500 6350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1600 6350 50  0001 C CNN
+F 3 "~" H 1600 6350 50  0001 C CNN
+	1    1600 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1600 6250 1150 6250
+Wire Wire Line
+	1600 6650 1150 6650
+Wire Wire Line
+	1600 6450 1150 6450
+Connection ~ 1600 6450
+Text Label 1150 6250 0    50   ~ 0
++5_OTG
+Text Label 1150 6450 0    50   ~ 0
+VBUSDET
+$Comp
+L power:GND #PWR0133
+U 1 1 60537526
+P 1150 6650
+F 0 "#PWR0133" H 1150 6400 50  0001 C CNN
+F 1 "GND" H 1155 6477 50  0000 C CNN
+F 2 "" H 1150 6650 50  0001 C CNN
+F 3 "" H 1150 6650 50  0001 C CNN
+	1    1150 6650
+	1    0    0    -1  
+$EndComp
+Text GLabel 3100 5050 2    50   BiDi ~ 0
+USB-ID
 $EndSCHEMATC

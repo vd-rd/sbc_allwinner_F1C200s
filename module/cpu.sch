@@ -159,7 +159,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 1850 7700 1850
 Wire Wire Line
-	6250 1850 5900 1850
+	6250 1850 6050 1850
 Wire Wire Line
 	6250 2050 5900 2050
 Wire Wire Line
@@ -564,7 +564,7 @@ Text Label 5900 1550 0    50   ~ 0
 hosco
 Text Label 5900 1650 0    50   ~ 0
 hosci
-Text GLabel 5900 1850 0    50   Input ~ 0
+Text GLabel 6050 1850 0    50   BiDi ~ 0
 nRESET
 $Comp
 L power:GND #PWR0127

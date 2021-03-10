@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1850 2600 1250 1200
+S 8000 3000 1050 3050
 U 6044A149
 F0 "PMIC" 50
 F1 "power.sch" 50
@@ -26,7 +26,7 @@ F0 "IO" 50
 F1 "IO.sch" 50
 $EndSheet
 $Sheet
-S 5550 3300 1250 1300
+S 5050 3000 950  3050
 U 6050C68F
 F0 "CPU" 50
 F1 "cpu.sch" 50

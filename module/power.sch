@@ -246,7 +246,7 @@ $EndComp
 Text GLabel 4050 3400 0    50   BiDi ~ 0
 VBAT
 Wire Wire Line
-	5350 3300 4550 3300
+	5350 3300 4800 3300
 Wire Wire Line
 	3650 3300 4250 3300
 $Comp
@@ -660,7 +660,7 @@ Text GLabel 4450 4650 0    50   BiDi ~ 0
 RSB_SDA
 Text GLabel 4450 4750 0    50   Input ~ 0
 RSB_SCK
-Text GLabel 4450 4850 0    50   Output ~ 0
+Text GLabel 4450 4850 0    50   BiDi ~ 0
 nRESET
 Text GLabel 4450 4950 0    50   Input ~ 0
 nVBUSEN
@@ -881,14 +881,99 @@ PMIC_IRQ
 Text GLabel 4450 4350 0    50   Input ~ 0
 PMIC_IRQ
 $Comp
-L parts-diodes:AP9211 U1
+L parts-diodes:AP9211 U500
 U 1 1 606E46B5
 P 2500 1050
-F 0 "U1" H 2325 1075 50  0000 C CNN
+F 0 "U500" H 2325 1075 50  0000 C CNN
 F 1 "AP9211" H 2325 984 50  0000 C CNN
 F 2 "parts-diodes:DFN-6-1EP_2.1X3.1mm_EP1.8X1.8mm" H 2500 1050 50  0001 C CNN
 F 3 "" H 2500 1050 50  0001 C CNN
 	1    2500 1050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1950 1250 1650 1250
+$Comp
+L Device:R_Small R500
+U 1 1 604AE571
+P 1450 1250
+F 0 "R500" V 1400 1050 50  0000 L CNN
+F 1 "330" V 1400 1350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1450 1250 50  0001 C CNN
+F 3 "~" H 1450 1250 50  0001 C CNN
+F 4 "1%" H 1450 1250 50  0001 C CNN "Tolerance"
+	1    1450 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1350 1250 1100 1250
+Text Label 1100 1250 0    50   ~ 0
+VBAT
+$Comp
+L Device:C_Small C501
+U 1 1 604BC570
+P 1650 1350
+F 0 "C501" H 1742 1396 50  0000 L CNN
+F 1 "100nF" H 1742 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1650 1350 50  0001 C CNN
+F 3 "~" H 1650 1350 50  0001 C CNN
+	1    1650 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 1650 1250
+Wire Wire Line
+	1650 1250 1550 1250
+Wire Wire Line
+	1950 1450 1950 1350
+Wire Wire Line
+	1950 1450 1650 1450
+Connection ~ 1950 1450
+$Comp
+L Device:R_Small R501
+U 1 1 604C97EC
+P 2950 1350
+F 0 "R501" V 2900 1150 50  0000 L CNN
+F 1 "2.7k" V 2900 1450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2950 1350 50  0001 C CNN
+F 3 "~" H 2950 1350 50  0001 C CNN
+F 4 "1%" H 2950 1350 50  0001 C CNN "Tolerance"
+	1    2950 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 1350 2850 1350
+Wire Wire Line
+	3050 1350 3100 1350
+Wire Wire Line
+	3100 1350 3100 1450
+Connection ~ 3100 1450
+Wire Wire Line
+	3100 1450 3250 1450
+$Comp
+L power:GND #PWR0132
+U 1 1 604D857F
+P 3250 1450
+F 0 "#PWR0132" H 3250 1200 50  0001 C CNN
+F 1 "GND" H 3255 1277 50  0000 C CNN
+F 2 "" H 3250 1450 50  0001 C CNN
+F 3 "" H 3250 1450 50  0001 C CNN
+	1    3250 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1450 1100 1450
+Connection ~ 1650 1450
+Wire Wire Line
+	2700 1450 3100 1450
+Text GLabel 1100 1450 0    50   BiDi ~ 0
+BAT_GND
+Text GLabel 4900 3250 2    50   BiDi ~ 0
+BAT_NTC
+Wire Wire Line
+	4900 3250 4800 3250
+Wire Wire Line
+	4800 3250 4800 3300
+Connection ~ 4800 3300
+Wire Wire Line
+	4800 3300 4550 3300
 $EndSCHEMATC
