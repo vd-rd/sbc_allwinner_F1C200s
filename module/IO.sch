@@ -335,8 +335,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 2400 1750 2400
 Wire Wire Line
-	2600 2400 3000 2400
-Wire Wire Line
 	2100 2500 1750 2500
 Wire Wire Line
 	2600 2500 3000 2500
@@ -352,9 +350,9 @@ Wire Wire Line
 	2100 2800 1750 2800
 Wire Wire Line
 	2600 2800 3000 2800
-Text GLabel 3000 1500 2    50   Input ~ 0
+Text GLabel 1750 1600 0    50   Input ~ 0
 ACIN
-Text GLabel 1750 1600 0    50   Output ~ 0
+Text GLabel 3000 1500 2    50   Output ~ 0
 +3V3
 Text GLabel 3000 1600 2    50   Input ~ 0
 VBAT
@@ -371,13 +369,13 @@ UART0-RX
 Text Label 10100 4100 0    50   ~ 0
 +3V3
 Text GLabel 1750 2700 0    50   Input ~ 0
-SPI0-CLK
+SPI1-CLK
 Text GLabel 1750 2800 0    50   Input ~ 0
-SPI0-MOSI
+SPI1-MOSI
 Text GLabel 3000 2800 2    50   Input ~ 0
-SPI0-MISO
+SPI1-MISO
 Text GLabel 3000 2700 2    50   Input ~ 0
-SPI0-CS
+SPI1-CS
 Text GLabel 1750 2200 0    50   Input ~ 0
 UART1-TX
 Text GLabel 3000 2200 2    50   Input ~ 0
@@ -522,4 +520,123 @@ Wire Wire Line
 Connection ~ 6750 2700
 Wire Wire Line
 	6750 2700 6500 2700
+$Comp
+L Connector:TestPoint TP1
+U 1 1 604AE5DF
+P 10600 4800
+F 0 "TP1" V 10554 4988 50  0000 L CNN
+F 1 "GND" V 10550 4650 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10800 4800 50  0001 C CNN
+F 3 "~" H 10800 4800 50  0001 C CNN
+	1    10600 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 604B136C
+P 10600 4950
+F 0 "TP2" V 10554 5138 50  0000 L CNN
+F 1 "PWRON" V 10550 4800 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10800 4950 50  0001 C CNN
+F 3 "~" H 10800 4950 50  0001 C CNN
+	1    10600 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10600 4800 10150 4800
+$Comp
+L power:GND #PWR0134
+U 1 1 604B5232
+P 10150 4800
+F 0 "#PWR0134" H 10150 4550 50  0001 C CNN
+F 1 "GND" H 10300 4750 50  0000 C CNN
+F 2 "" H 10150 4800 50  0001 C CNN
+F 3 "" H 10150 4800 50  0001 C CNN
+	1    10150 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 4950 9950 4950
+Text GLabel 9950 4950 0    50   Input ~ 0
+PWRON
+$Comp
+L Connector:TestPoint TP3
+U 1 1 604C5BB4
+P 10600 5100
+F 0 "TP3" V 10554 5288 50  0000 L CNN
+F 1 "DRX" V 10550 4950 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10800 5100 50  0001 C CNN
+F 3 "~" H 10800 5100 50  0001 C CNN
+	1    10600 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 604C5FA3
+P 10600 5250
+F 0 "TP4" V 10554 5438 50  0000 L CNN
+F 1 "DTX" V 10550 5100 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10800 5250 50  0001 C CNN
+F 3 "~" H 10800 5250 50  0001 C CNN
+	1    10600 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10600 5100 9950 5100
+Wire Wire Line
+	10600 5250 9950 5250
+Text GLabel 9950 5100 0    50   Input ~ 0
+SDC0-CLK
+Text GLabel 9950 5250 0    50   Input ~ 0
+SDC0-DAT3
+Wire Wire Line
+	2600 3200 3500 3200
+$Comp
+L power:GND #PWR0135
+U 1 1 60538D01
+P 3500 3200
+F 0 "#PWR0135" H 3500 2950 50  0001 C CNN
+F 1 "GND" H 3505 3027 50  0000 C CNN
+F 2 "" H 3500 3200 50  0001 C CNN
+F 3 "" H 3500 3200 50  0001 C CNN
+	1    3500 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 3200 1750 3200
+Text GLabel 1750 3200 0    50   Output ~ 0
++3V3
+Wire Wire Line
+	2600 3100 3000 3100
+Wire Wire Line
+	2100 3100 1750 3100
+Wire Wire Line
+	2600 3000 3000 3000
+Wire Wire Line
+	2100 3000 1750 3000
+Text GLabel 3000 3100 2    50   BiDi ~ 0
+GPIO34
+Text GLabel 1750 3100 0    50   BiDi ~ 0
+GPIO33
+Text GLabel 1750 3000 0    50   BiDi ~ 0
+GPIO31
+Text GLabel 3000 3000 2    50   BiDi ~ 0
+GPIO32
+Text GLabel 3000 2600 2    50   BiDi ~ 0
+UART2-TX
+Text GLabel 1750 2600 0    50   BiDi ~ 0
+UART2-RX
+Wire Wire Line
+	2600 2400 3500 2400
+$Comp
+L power:GND #PWR0136
+U 1 1 605680C8
+P 3500 2400
+F 0 "#PWR0136" H 3500 2150 50  0001 C CNN
+F 1 "GND" H 3505 2227 50  0000 C CNN
+F 2 "" H 3500 2400 50  0001 C CNN
+F 3 "" H 3500 2400 50  0001 C CNN
+	1    3500 2400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -735,20 +735,20 @@ UART1-RX
 Text GLabel 1300 2950 0    50   Output ~ 0
 UART1-TX
 Wire Wire Line
-	1800 3750 1300 3750
+	1800 5800 1300 5800
 Wire Wire Line
-	1800 3850 1300 3850
-Text GLabel 1300 3750 0    50   Output ~ 0
+	1800 5900 1300 5900
+Text GLabel 1300 5800 0    50   Output ~ 0
 RSB_SCK
-Text GLabel 1300 3850 0    50   BiDi ~ 0
+Text GLabel 1300 5900 0    50   BiDi ~ 0
 RSB_SDA
 Wire Wire Line
 	1800 5700 1300 5700
 Text GLabel 1300 5700 0    50   BiDi ~ 0
 PMIC_IRQ
 Wire Wire Line
-	1800 5800 1300 5800
-Text GLabel 1300 5800 0    50   BiDi ~ 0
+	1800 6000 1300 6000
+Text GLabel 1300 6000 0    50   BiDi ~ 0
 nVBUSEN
 Wire Wire Line
 	4050 5750 3650 5750
@@ -763,10 +763,6 @@ LED-GREEN
 Text GLabel 3650 5750 0    50   BiDi ~ 0
 LED-BLUE
 Wire Wire Line
-	1800 5900 1300 5900
-Text GLabel 1300 5900 0    50   Input ~ 0
-PMIC_IRQ
-Wire Wire Line
 	1800 6600 1300 6600
 Wire Wire Line
 	1800 6700 1300 6700
@@ -774,4 +770,32 @@ Text GLabel 1300 6600 0    50   Output ~ 0
 I2C0-SCK
 Text GLabel 1300 6700 0    50   BiDi ~ 0
 I2C0-SDA
+Text GLabel 1300 6100 0    50   Input ~ 0
+PMIC_IRQ
+Wire Wire Line
+	1800 6100 1300 6100
+Wire Wire Line
+	1800 6200 1300 6200
+Wire Wire Line
+	1800 6300 1300 6300
+Wire Wire Line
+	1800 6400 1300 6400
+Wire Wire Line
+	1800 6500 1300 6500
+Text GLabel 1300 6200 0    50   BiDi ~ 0
+SPI1-CS
+Text GLabel 1300 6300 0    50   BiDi ~ 0
+SPI1-MOSI
+Text GLabel 1300 6400 0    50   BiDi ~ 0
+SPI1-CLK
+Text GLabel 1300 6500 0    50   BiDi ~ 0
+SPI1-MISO
+Wire Wire Line
+	1800 3850 1300 3850
+Wire Wire Line
+	1800 3950 1300 3950
+Text GLabel 1300 3850 0    50   BiDi ~ 0
+UART2-TX
+Text GLabel 1300 3950 0    50   BiDi ~ 0
+UART2-RX
 $EndSCHEMATC
