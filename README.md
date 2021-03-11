@@ -1,3 +1,5 @@
+View this project on [CADLAB.io](https://cadlab.io/project/23988). 
+
 # Allwinner F1C100s SBC
 
 This board embeds a SIP (single core 533MHz ARM926EJ-S with 32MB DDR) with AXP173 PMIC, IO headers and microSD/eMMC storage.
