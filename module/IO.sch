@@ -389,9 +389,9 @@ Wire Wire Line
 Wire Wire Line
 	2650 4950 3100 4950
 Text GLabel 3100 4850 2    50   BiDi ~ 0
-USB-DM
+USB-D-
 Text GLabel 3100 4950 2    50   BiDi ~ 0
-USB-DP
+USB-D+
 Text GLabel 8350 3900 0    50   Input ~ 0
 LED-RED
 Text GLabel 8350 4100 0    50   Input ~ 0
@@ -469,7 +469,7 @@ Wire Wire Line
 	1600 6450 1150 6450
 Connection ~ 1600 6450
 Text Label 1150 6250 0    50   ~ 0
-+5_OTG
++5V_OTG
 Text Label 1150 6450 0    50   ~ 0
 VBUSDET
 $Comp
@@ -639,4 +639,14 @@ F 3 "" H 3500 2400 50  0001 C CNN
 	1    3500 2400
 	1    0    0    -1  
 $EndComp
+Text GLabel 1750 2100 0    50   BiDi ~ 0
+GPIO13
+Text GLabel 3000 2100 2    50   BiDi ~ 0
+GPIO14
+Text GLabel 1750 2400 0    50   BiDi ~ 0
+GPIO19
+Text GLabel 3000 2500 2    50   BiDi ~ 0
+GPIO22
+Text GLabel 1750 2500 0    50   BiDi ~ 0
+GPIO21
 $EndSCHEMATC

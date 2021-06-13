@@ -665,7 +665,7 @@ nRESET
 Text GLabel 4450 4950 0    50   Input ~ 0
 nVBUSEN
 Text GLabel 8050 3250 2    50   Output ~ 0
-VDD-CORE
++1V1
 Text GLabel 8050 3800 2    50   Output ~ 0
 +3V3
 Text GLabel 6850 4100 2    50   Output ~ 0

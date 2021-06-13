@@ -513,7 +513,7 @@ U 1 1 605425B3
 P 9850 1950
 F 0 "Y200" H 9850 2218 50  0000 C CNN
 F 1 "24MHz" H 9850 2127 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 9850 1950 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm" H 9850 1950 50  0001 C CNN
 F 3 "~" H 9850 1950 50  0001 C CNN
 	1    9850 1950
 	1    0    0    -1  
@@ -675,9 +675,9 @@ Wire Wire Line
 Wire Wire Line
 	4050 4250 3550 4250
 Text GLabel 3550 4150 0    50   Input ~ 0
-USB-DM
+USB-D-
 Text GLabel 3550 4250 0    50   Input ~ 0
-USB-DP
+USB-D+
 Wire Wire Line
 	4150 1950 3950 1950
 Wire Wire Line
@@ -770,10 +770,6 @@ Text GLabel 1300 6600 0    50   Output ~ 0
 I2C0-SCK
 Text GLabel 1300 6700 0    50   BiDi ~ 0
 I2C0-SDA
-Text GLabel 1300 6100 0    50   Input ~ 0
-PMIC_IRQ
-Wire Wire Line
-	1800 6100 1300 6100
 Wire Wire Line
 	1800 6200 1300 6200
 Wire Wire Line
@@ -798,4 +794,117 @@ Text GLabel 1300 3850 0    50   BiDi ~ 0
 UART2-TX
 Text GLabel 1300 3950 0    50   BiDi ~ 0
 UART2-RX
+$Comp
+L Memory_Flash:W25Q32JVSS U600
+U 1 1 60582B3F
+P 1950 7300
+F 0 "U600" H 1900 7350 50  0000 C CNN
+F 1 "W25Q32JVSS" H 1950 7250 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 1950 7300 50  0001 C CNN
+F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 1950 7300 50  0001 C CNN
+	1    1950 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 6900 800  6900
+Text Label 750  6900 0    50   ~ 0
++3V3
+Wire Wire Line
+	1450 7200 1050 7200
+Wire Wire Line
+	1450 7400 1050 7400
+$Comp
+L power:GND #PWR0137
+U 1 1 60598D55
+P 1950 7700
+F 0 "#PWR0137" H 1950 7450 50  0001 C CNN
+F 1 "GND" H 2100 7650 50  0000 C CNN
+F 2 "" H 1950 7700 50  0001 C CNN
+F 3 "" H 1950 7700 50  0001 C CNN
+	1    1950 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 7100 2900 7100
+Wire Wire Line
+	2450 7200 2900 7200
+Text Label 1050 7200 0    50   ~ 0
+SPI0-CS
+Text Label 1050 7400 0    50   ~ 0
+SPI0-CLK
+Text Label 2900 7100 2    50   ~ 0
+SPI0-MOSI
+Text Label 2900 7200 2    50   ~ 0
+SPI0-MISO
+$Comp
+L Device:C_Small C600
+U 1 1 605CD5F9
+P 800 7000
+F 0 "C600" H 892 7046 50  0000 L CNN
+F 1 "100nF" H 892 6955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 800 7000 50  0001 C CNN
+F 3 "~" H 800 7000 50  0001 C CNN
+	1    800  7000
+	1    0    0    -1  
+$EndComp
+Connection ~ 800  6900
+Wire Wire Line
+	800  6900 750  6900
+$Comp
+L power:GND #PWR0138
+U 1 1 605D0A37
+P 800 7100
+F 0 "#PWR0138" H 800 6850 50  0001 C CNN
+F 1 "GND" H 805 6927 50  0000 C CNN
+F 2 "" H 800 7100 50  0001 C CNN
+F 3 "" H 800 7100 50  0001 C CNN
+	1    800  7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2550 1250 2550
+Wire Wire Line
+	1800 2650 1250 2650
+Wire Wire Line
+	1800 2750 1250 2750
+Wire Wire Line
+	1800 3050 1300 3050
+Wire Wire Line
+	1800 3150 1300 3150
+Text GLabel 1250 2550 0    50   BiDi ~ 0
+GPIO34
+Text GLabel 1250 2650 0    50   BiDi ~ 0
+GPIO33
+Text GLabel 1250 2750 0    50   BiDi ~ 0
+GPIO32
+Text GLabel 1300 3050 0    50   BiDi ~ 0
+GPIO31
+Text GLabel 1300 3150 0    50   BiDi ~ 0
+GPIO22
+Wire Wire Line
+	1800 3250 1300 3250
+Text GLabel 1300 3250 0    50   BiDi ~ 0
+GPIO21
+Wire Wire Line
+	1800 3350 1300 3350
+Wire Wire Line
+	1800 3450 1300 3450
+Text GLabel 1300 3350 0    50   BiDi ~ 0
+GPIO14
+Text GLabel 1300 3450 0    50   BiDi ~ 0
+GPIO13
+Wire Wire Line
+	1800 6100 1300 6100
+Text GLabel 1300 6100 0    50   Input ~ 0
+SDC0-DET
+Wire Wire Line
+	4050 5850 3650 5850
+Text GLabel 3650 5850 0    50   Input ~ 0
+VBUSDET
+Text GLabel 5900 3050 0    50   Input ~ 0
++1V1
+Text GLabel 5900 2550 0    50   Input ~ 0
++2V5
+Text GLabel 5900 2250 0    50   Input ~ 0
++3V3
 $EndSCHEMATC
