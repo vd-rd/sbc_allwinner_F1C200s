@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name "parts-allwinner")(type "Legacy")(uri "${KIPRJMOD}/parts-allwinner.lib")(options "")(descr ""))
+  (lib (name "parts-microchip")(type "Legacy")(uri "${KIPRJMOD}/parts-microchip.lib")(options "")(descr ""))
+  (lib (name "parts-xpower")(type "Legacy")(uri "${KIPRJMOD}/parts-xpower.lib")(options "")(descr ""))
+  (lib (name "parts-attend")(type "Legacy")(uri "${KIPRJMOD}/parts-attend.lib")(options "")(descr ""))
+  (lib (name "parts-diodes")(type "Legacy")(uri "${KIPRJMOD}/parts-diodes.lib")(options "")(descr ""))
+  (lib (name "module-rescue")(type "Legacy")(uri "${KIPRJMOD}/module-rescue.lib")(options "")(descr ""))
+)
