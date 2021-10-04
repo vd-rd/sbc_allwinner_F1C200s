@@ -1,7 +1,0 @@
-(fp_lib_table
-  (lib (name parts-inductor)(type KiCad)(uri ${KIPRJMOD}/parts-inductor.pretty)(options "")(descr ""))
-  (lib (name parts-allwinner)(type KiCad)(uri ${KIPRJMOD}/parts-allwinner.pretty)(options "")(descr ""))
-  (lib (name parts-attend)(type KiCad)(uri ${KIPRJMOD}/parts-attend.pretty)(options "")(descr ""))
-  (lib (name parts-refond)(type KiCad)(uri ${KIPRJMOD}/parts-refond.pretty)(options "")(descr ""))
-  (lib (name parts-diodes)(type KiCad)(uri ${KIPRJMOD}/parts-diodes.pretty)(options "")(descr ""))
-)
