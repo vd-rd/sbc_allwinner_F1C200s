@@ -522,9 +522,6 @@
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/54ef2407-f8a0-4082-87bc-bb3161b4de8b"
       (reference "SW2") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_EVQP7C")
     )
-    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/62999a3e-e130-428a-b336-c4ab8ba72a83"
-      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/d866e9a1-fee3-4ed3-9ccc-45c46467b022"
       (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
@@ -542,6 +539,9 @@
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/a37e8de2-9f6d-4897-bef5-4b280838773f"
       (reference "TP8") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/8937c5a1-e6ff-46a3-b037-5b93a29dd35e"
+      (reference "U1") (unit 1) (value "AXP173") (footprint "Package_DFN_QFN:VQFN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm_ThermalVias")
     )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/2eeb345b-0ab7-444c-b6f6-7fef5bb40795"
       (reference "U3") (unit 1) (value "USBLC6-2P6") (footprint "Package_TO_SOT_SMD:SOT-666")
@@ -575,9 +575,6 @@
     )
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/4f3e54d1-5a4f-4d99-a228-23a3cf80dd2a"
       (reference "U100") (unit 6) (value "F1C100s") (footprint "allwinner:QFN-88_EP_10x10_Pitch0.4mm")
-    )
-    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/8937c5a1-e6ff-46a3-b037-5b93a29dd35e"
-      (reference "U?") (unit 1) (value "AXP173") (footprint "Package_DFN_QFN:VQFN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm_ThermalVias")
     )
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/b0711fe4-1822-4332-b465-dff8c5e58782"
       (reference "Y2") (unit 1) (value "24MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
