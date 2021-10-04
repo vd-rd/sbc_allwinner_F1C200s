@@ -429,12 +429,6 @@
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/182a8153-3456-4c1e-8b8e-76b939346d75"
       (reference "J4") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal")
     )
-    (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/ea45c988-0c40-483a-8575-d7f1a7cda4d1"
-      (reference "J7") (unit 1) (value "AudioJack3") (footprint "cui:Jack_3.5mm_CUI_SJ-43514-SMT_Horizontal")
-    )
-    (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/02a63dd1-42f4-4f88-a499-3e1b3b4052f7"
-      (reference "J8") (unit 1) (value "AudioJack4") (footprint "cui:Jack_3.5mm_CUI_SJ-43514-SMT_Horizontal")
-    )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/ba1b9f5e-8629-4528-b911-75a1019aae55"
       (reference "L1") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-3015")
     )
