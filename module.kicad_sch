@@ -630,9 +630,6 @@
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/9cf4af68-cf01-4f38-8b84-9324cd959309"
       (reference "C326") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/c7a2c6cf-e097-4a3e-9378-13ca2a41c41f"
-      (reference "C328") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/1f476b17-5fc9-45ce-856c-13ac1b78ad20"
       (reference "C329") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
