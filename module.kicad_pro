@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.39999999999999997
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -69,7 +69,6 @@
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
-        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -410,7 +409,7 @@
       }
     ],
     "meta": {
-      "version": 2
+      "version": 1
     },
     "net_colors": null
   },
@@ -447,7 +446,7 @@
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 1
+      "version": 0
     },
     "net_format_name": "",
     "ngspice": {
