@@ -33,14 +33,16 @@
             (xy -1.524 -0.508)
             (xy 1.524 -0.508)
           )
-          (stroke (width 0.3302)) (fill (type none))
+          (stroke (width 0.3302) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -1.524 0.508)
             (xy 1.524 0.508)
           )
-          (stroke (width 0.3048)) (fill (type none))
+          (stroke (width 0.3048) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "C_Small_1_1"
@@ -78,49 +80,56 @@
       )
       (symbol "Crystal_GND24_0_1"
         (rectangle (start -1.143 2.54) (end 1.143 -2.54)
-          (stroke (width 0.3048)) (fill (type none))
+          (stroke (width 0.3048) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -2.54 0)
             (xy -2.032 0)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -2.032 -1.27)
             (xy -2.032 1.27)
           )
-          (stroke (width 0.508)) (fill (type none))
+          (stroke (width 0.508) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 -3.81)
             (xy 0 -3.556)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 3.556)
             (xy 0 3.81)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 2.032 -1.27)
             (xy 2.032 1.27)
           )
-          (stroke (width 0.508)) (fill (type none))
+          (stroke (width 0.508) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 2.032 0)
             (xy 2.54 0)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
@@ -129,7 +138,8 @@
             (xy 2.54 -3.556)
             (xy 2.54 -2.286)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
@@ -138,7 +148,8 @@
             (xy 2.54 3.556)
             (xy 2.54 2.286)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "Crystal_GND24_1_1"
@@ -184,7 +195,8 @@
       )
       (symbol "R_Small_0_1"
         (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-          (stroke (width 0.2032)) (fill (type none))
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "R_Small_1_1"
@@ -282,7 +294,8 @@
       )
       (symbol "F1C100s_1_1_1"
         (rectangle (start -5.08 0) (end 5.08 -63.5)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "F1C100s_1_2_0"
@@ -401,7 +414,8 @@
       )
       (symbol "F1C100s_1_2_1"
         (rectangle (start -5.08 0) (end 6.35 -83.82)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "F1C100s_1_3_0"
@@ -424,7 +438,8 @@
       )
       (symbol "F1C100s_1_3_1"
         (rectangle (start -2.54 0) (end 2.54 -12.7)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "F1C100s_1_4_0"
@@ -519,7 +534,8 @@
       )
       (symbol "F1C100s_1_4_1"
         (rectangle (start -2.54 0) (end 3.81 -58.42)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "F1C100s_1_5_0"
@@ -574,7 +590,8 @@
       )
       (symbol "F1C100s_1_5_1"
         (rectangle (start -2.54 0) (end 3.81 -35.56)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
         (pin passive line (at -7.62 -33.02 0) (length 5.08)
           (name "PE12" (effects (font (size 1.27 1.27))))
@@ -609,7 +626,8 @@
       )
       (symbol "F1C100s_1_6_1"
         (rectangle (start -2.54 0) (end 3.81 -17.78)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
     )
@@ -697,7 +715,8 @@
       )
       (symbol "F1C100s_2_1_1"
         (rectangle (start -5.08 0) (end 5.08 -63.5)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "F1C100s_2_2_0"
@@ -816,7 +835,8 @@
       )
       (symbol "F1C100s_2_2_1"
         (rectangle (start -5.08 0) (end 6.35 -83.82)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "F1C100s_2_3_0"
@@ -839,7 +859,8 @@
       )
       (symbol "F1C100s_2_3_1"
         (rectangle (start -2.54 0) (end 2.54 -12.7)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "F1C100s_2_4_0"
@@ -934,7 +955,8 @@
       )
       (symbol "F1C100s_2_4_1"
         (rectangle (start -2.54 0) (end 3.81 -58.42)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "F1C100s_2_5_0"
@@ -989,7 +1011,8 @@
       )
       (symbol "F1C100s_2_5_1"
         (rectangle (start -2.54 0) (end 3.81 -35.56)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
         (pin passive line (at -7.62 -33.02 0) (length 5.08)
           (name "PE12" (effects (font (size 1.27 1.27))))
@@ -1024,7 +1047,8 @@
       )
       (symbol "F1C100s_2_6_1"
         (rectangle (start -2.54 0) (end 3.81 -17.78)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
     )
@@ -1112,7 +1136,8 @@
       )
       (symbol "F1C100s_1_1"
         (rectangle (start -5.08 0) (end 5.08 -63.5)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "F1C100s_2_0"
@@ -1227,7 +1252,8 @@
       )
       (symbol "F1C100s_2_1"
         (rectangle (start -5.08 0) (end 6.35 -78.74)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "F1C100s_3_0"
@@ -1250,7 +1276,8 @@
       )
       (symbol "F1C100s_3_1"
         (rectangle (start -2.54 0) (end 2.54 -12.7)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "F1C100s_4_0"
@@ -1345,7 +1372,8 @@
       )
       (symbol "F1C100s_4_1"
         (rectangle (start -2.54 0) (end 3.81 -58.42)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "F1C100s_5_0"
@@ -1400,7 +1428,8 @@
       )
       (symbol "F1C100s_5_1"
         (rectangle (start -2.54 0) (end 3.81 -35.56)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
         (pin passive line (at -7.62 -33.02 0) (length 5.08)
           (name "PE12" (effects (font (size 1.27 1.27))))
@@ -1435,7 +1464,8 @@
       )
       (symbol "F1C100s_6_1"
         (rectangle (start -2.54 0) (end 3.81 -17.78)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
     )
@@ -1468,7 +1498,8 @@
             (xy -1.27 -1.27)
             (xy 0 -1.27)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "GND_1_1"
