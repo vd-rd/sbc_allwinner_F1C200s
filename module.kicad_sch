@@ -201,6 +201,9 @@
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/4ae3408c-e040-4fa1-93cf-901fc609a072"
       (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
     )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/e0b1253e-e012-4aa0-baa8-22a44688d6fe"
+      (reference "#PWR0124") (unit 1) (value "GND") (footprint "")
+    )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/1a77a456-f519-4ebd-a7cf-f88a4c4d7f9c"
       (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
     )
@@ -581,6 +584,9 @@
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/a37e8de2-9f6d-4897-bef5-4b280838773f"
       (reference "TP8") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/09345568-9c8d-4738-ab78-39a5972623f4"
+      (reference "U1") (unit 1) (value "AT25SF081-SSHD-X") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/2eeb345b-0ab7-444c-b6f6-7fef5bb40795"
       (reference "U3") (unit 1) (value "USBLC6-2P6") (footprint "Package_TO_SOT_SMD:SOT-666")
