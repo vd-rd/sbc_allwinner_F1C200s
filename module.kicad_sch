@@ -234,6 +234,9 @@
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/8fe02c24-886d-4347-a754-9df3e6a13f66"
       (reference "#PWR0134") (unit 1) (value "GND") (footprint "")
     )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/75a41caa-441e-49af-bf2c-67ae5a8abd23"
+      (reference "#PWR0135") (unit 1) (value "GND") (footprint "")
+    )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/96dcd335-4a2c-4544-82fe-7bd38565c9e9"
       (reference "#PWR0136") (unit 1) (value "GND") (footprint "")
     )
@@ -329,6 +332,9 @@
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/6295c475-d5e4-4d10-97cc-0c0206d0ec96"
       (reference "C15") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/273427fb-0ed9-43ab-816d-a6c598175880"
+      (reference "C16") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/f950c2bb-083f-4d5a-a010-322c5e917f08"
       (reference "C18") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -492,6 +498,9 @@
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/bea168b2-41b2-4abe-a392-629ac2933612"
       (reference "R1") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/2b51b61e-0664-41e2-8450-8f74ad688d93"
+      (reference "R2") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/321d593e-8dad-4388-80a0-7dbcf03f1964"
       (reference "R7") (unit 1) (value "R_Small") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
@@ -587,6 +596,9 @@
     )
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/09345568-9c8d-4738-ab78-39a5972623f4"
       (reference "U1") (unit 1) (value "AT25SF081-SSHD-X") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/b3713cdc-1cb2-4321-8512-47292452b745"
+      (reference "U2") (unit 1) (value "PCA6408A") (footprint "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm")
     )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/2eeb345b-0ab7-444c-b6f6-7fef5bb40795"
       (reference "U3") (unit 1) (value "USBLC6-2P6") (footprint "Package_TO_SOT_SMD:SOT-666")
