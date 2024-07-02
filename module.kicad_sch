@@ -98,7 +98,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24719d36-f09f-47ee-a6eb-97bcea753523")
-		(property "Reference" "H4"
+		(property "Reference" "H3"
 			(at 66.0401 184.5115 0)
 			(effects
 				(font
@@ -146,7 +146,7 @@
 		(instances
 			(project "module"
 				(path "/1bd6d52b-770c-41d7-8859-8af3cd8465de"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -162,7 +162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d53d570-6a37-4f3f-93de-0996e5ff5284")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 66.0401 168.0015 0)
 			(effects
 				(font
@@ -210,7 +210,7 @@
 		(instances
 			(project "module"
 				(path "/1bd6d52b-770c-41d7-8859-8af3cd8465de"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -386,7 +386,45 @@
 		(instances
 			(project "module"
 				(path "/1bd6d52b-770c-41d7-8859-8af3cd8465de"
-					(page "4")
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 124.46)
+		(size 59.69 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "de2724df-2280-430f-89f5-b931b335636e")
+		(property "Sheetname" "networking"
+			(at 21.59 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "net.kicad_sch"
+			(at 21.59 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "module"
+				(path "/1bd6d52b-770c-41d7-8859-8af3cd8465de"
+					(page "5")
 				)
 			)
 		)

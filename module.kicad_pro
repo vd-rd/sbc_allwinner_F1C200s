@@ -46,7 +46,7 @@
         "silk_text_size_h": 0.6,
         "silk_text_size_v": 0.8,
         "silk_text_thickness": 0.127,
-        "silk_text_upright": false,
+        "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
           "min_clearance": 0.3
@@ -80,6 +80,7 @@
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -235,7 +236,7 @@
         },
         {
           "diameter": 0.45,
-          "drill": 0.2
+          "drill": 0.25
         },
         {
           "diameter": 0.55,
@@ -659,6 +660,10 @@
     [
       "45a70247-17ff-4317-92d4-90cb4b4e4a35",
       "cpu"
+    ],
+    [
+      "de2724df-2280-430f-89f5-b931b335636e",
+      "networking"
     ],
     [
       "a7990867-0d95-4b8a-9a5f-f4fc9be5fa90",
