@@ -1,5 +1,7 @@
 # Allwinner F1C200s SBC
 
+![board_render](/assets/front.png)
+
 This board embeds a SIP (single core 533MHz ARM926EJ-S with 64MB DDR) with AXP173 PMIC, IO headers and microSD/eMMC storage. The board is also compatible with the smaller F1C100s that only embedds 32MB DDR RAM.
 
 ## Board overview (draft):
