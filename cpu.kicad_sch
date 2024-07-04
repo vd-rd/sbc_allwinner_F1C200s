@@ -4561,6 +4561,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 86.36) (xy 149.86 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db170092-22d7-4ade-9827-c6230b8258bc")
+	)
+	(wire
+		(pts
 			(xy 26.67 120.65) (xy 35.56 120.65)
 		)
 		(stroke
@@ -6222,6 +6232,28 @@
 			)
 		)
 	)
+	(global_label "BTN1"
+		(shape output)
+		(at 142.24 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f12a480-c88e-4aaa-ae37-cebdac493e12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.1446 86.2806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LCD-D12"
 		(shape output)
 		(at 87.63 55.88 180)
@@ -6367,28 +6399,6 @@
 		(uuid "87740a77-a457-4ac9-837c-476e948b32c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.5083 81.2006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BTN1"
-		(shape output)
-		(at 26.67 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "93756e91-2e5f-405c-9380-5245b123937c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.5746 120.5706 0)
 			(effects
 				(font
 					(size 1.27 1.27)

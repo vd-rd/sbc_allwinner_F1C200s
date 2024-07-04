@@ -6621,6 +6621,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 166.37) (xy 129.54 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d6b496-950f-4579-80d2-626a82a362b1")
+	)
+	(wire
+		(pts
 			(xy 16.51 59.69) (xy 36.83 59.69)
 		)
 		(stroke
@@ -6668,6 +6678,16 @@
 			(type default)
 		)
 		(uuid "7b12f257-48d8-4d8a-94c4-adde23c01b4b")
+	)
+	(wire
+		(pts
+			(xy 129.54 173.99) (xy 129.54 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b792792-8b09-4cfc-aa62-ed34030932e5")
 	)
 	(wire
 		(pts
@@ -6868,6 +6888,16 @@
 			(type default)
 		)
 		(uuid "9bd052eb-ec93-472e-8206-6f519d3e94d9")
+	)
+	(wire
+		(pts
+			(xy 124.46 166.37) (xy 129.54 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ebf0b22-d472-47c3-80b8-7b6c8cdd2312")
 	)
 	(wire
 		(pts
@@ -13048,6 +13078,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 129.54 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd6c3455-8898-46a7-a216-8a71eddedacd")
+		(property "Reference" "R5"
+			(at 132.8279 170.3843 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 133.5715 172.5845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 129.54 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "804da244-34da-4505-ab28-8b0ab56c9691")
+		)
+		(pin "2"
+			(uuid "cc14fe6b-a8ed-4223-9a22-391d8a55bd94")
+		)
+		(instances
+			(project "module"
+				(path "/1bd6d52b-770c-41d7-8859-8af3cd8465de/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
 		(at 191.77 73.66 90)
 		(unit 1)
@@ -13182,6 +13279,71 @@
 			(project "module"
 				(path "/1bd6d52b-770c-41d7-8859-8af3cd8465de/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90"
 					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8df477d-a074-41d2-8370-711233fe617b")
+		(property "Reference" "#PWR021"
+			(at 129.54 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.715 188.0776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdb9290d-e9db-466d-9260-77f00699d4a7")
+		)
+		(instances
+			(project "module"
+				(path "/1bd6d52b-770c-41d7-8859-8af3cd8465de/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
